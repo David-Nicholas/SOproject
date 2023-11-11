@@ -36,7 +36,7 @@ int main(int argc, char **argv){
 		exit(1);
 	}
 	
-	int outputFile = open("infirmation.txt", O_WRONLY | O_CREAT | O_TRUNC, S_IRUSR | S_IWUSR);
+	int outputFile = open("statistica.txt", O_WRONLY | O_CREAT | O_TRUNC, S_IRUSR | S_IWUSR);
 	if(outputFile == -1){
 		printf("Fiserul de output nu se poate dschide\n");
 		exit(1);
