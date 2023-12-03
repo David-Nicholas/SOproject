@@ -1,6 +1,0 @@
-Nume fisier: testDirectoty
-Identificatorul utilizatorului: 1000
- 
-Drepturi de acces user: RWX
-Drepturi de acces grup: RWX
-Drepturi de acces altii: R-X
