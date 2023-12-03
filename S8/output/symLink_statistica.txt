@@ -1,0 +1,7 @@
+Nume fisier: symLink
+Dimensiune legatura: 32
+Dimensiune fisier target: 0
+ 
+Drepturi de acces user: RWX
+Drepturi de acces grup: RWX
+Drepturi de acces altii: RWX
