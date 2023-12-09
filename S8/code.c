@@ -304,6 +304,7 @@ void process_file(char *file_path, DIR *output_dir, char *output_dir_path){
 						}
 						gray_convert(file_path);
 						close(output_bmp);
+						exit(1);
 						} else{
 							int bmp_pid_status;
 							waitpid(pid_bmp, &bmp_pid_status, 0);
@@ -326,7 +327,8 @@ void process_file(char *file_path, DIR *output_dir, char *output_dir_path){
 						close(output_other);
 					}
 				}
-			}		
+			}
+			exit(1);		
 	} else{
 		pid = wait(&pid_status);
 		if(WIFEXITED(pid_status)){
